@@ -2,7 +2,6 @@
 # platform :ios, '6.0'
 
 target 'Photogenic' do
-  pod 'InstagramKit', '3.5.0'
 end
 
 target 'PhotogenicTests' do

@@ -33,3 +33,6 @@ doc
 .idea
 *.iml
 public/assets/
+
+
+Pods/
