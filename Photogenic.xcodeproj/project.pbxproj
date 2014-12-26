@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C31CB02478CFE5E9BC006FE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31CB95F575BE0A91C99B032 /* ViewController.swift */; };
+		C31CBAEFB6A554DDB952C420 /* PhotogenicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31CB153A71D75EF1864D1DB /* PhotogenicTests.swift */; };
+		C31CBBC8E1770828A2A4A433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31CB89A7EF05CCCCFDE294D /* AppDelegate.swift */; };
+		C31CBD1C41D3E0C0A0416489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31CB9FFFD25FC4A1036F2ED /* Main.storyboard */; };
+		C31CBEF089ED021C9FA6C0A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31CBE813498B7B705881E26 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C31CB182E631BFE6ADD520E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C31CBF6A79654AD6220C7585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31CBD8E180A7AF06D878B17;
+			remoteInfo = Photogenic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C31CB1398DB4375104695C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C31CB153A71D75EF1864D1DB /* PhotogenicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotogenicTests.swift; sourceTree = "<group>"; };
+		C31CB73F08A60B03B4A7224B /* Photogenic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photogenic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31CB89A7EF05CCCCFDE294D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C31CB95F575BE0A91C99B032 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C31CBC3E28D1E398D98F9DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		C31CBCF708E0708487C8A3D4 /* PhotogenicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotogenicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31CBE813498B7B705881E26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C31CBFE40264E51A3BA1865D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C31CB8F859399A1116A35054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31CBE5104C4D0B68783988B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C31CB15B6DC34D51461F0BF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C31CBFE40264E51A3BA1865D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C31CB15E93C1DE0208A13F84 /* Photogenic */ = {
+			isa = PBXGroup;
+			children = (
+				C31CB15B6DC34D51461F0BF9 /* Supporting Files */,
+				C31CBE813498B7B705881E26 /* Images.xcassets */,
+				C31CB89A7EF05CCCCFDE294D /* AppDelegate.swift */,
+				C31CB9FFFD25FC4A1036F2ED /* Main.storyboard */,
+				C31CB95F575BE0A91C99B032 /* ViewController.swift */,
+			);
+			path = Photogenic;
+			sourceTree = "<group>";
+		};
+		C31CB4384E0CB07D6AF10E99 = {
+			isa = PBXGroup;
+			children = (
+				C31CB6BA53DD8CE2E4A8F50B /* Products */,
+				C31CB15E93C1DE0208A13F84 /* Photogenic */,
+				C31CBE2A2CC46BF4F63F8E19 /* PhotogenicTests */,
+			);
+			sourceTree = "<group>";
+		};
+		C31CB6BA53DD8CE2E4A8F50B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C31CB73F08A60B03B4A7224B /* Photogenic.app */,
+				C31CBCF708E0708487C8A3D4 /* PhotogenicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C31CBA47785CD5F7091BB2F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C31CBC3E28D1E398D98F9DD9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C31CBE2A2CC46BF4F63F8E19 /* PhotogenicTests */ = {
+			isa = PBXGroup;
+			children = (
+				C31CBA47785CD5F7091BB2F4 /* Supporting Files */,
+				C31CB153A71D75EF1864D1DB /* PhotogenicTests.swift */,
+			);
+			path = PhotogenicTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C31CB42F2BF1A0A1E640AF0B /* PhotogenicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31CB5C0BC39D8A88BEE68D4 /* Build configuration list for PBXNativeTarget "PhotogenicTests" */;
+			buildPhases = (
+				C31CBE353187957EF0E596C9 /* Sources */,
+				C31CBE5104C4D0B68783988B /* Frameworks */,
+				C31CB3924CAF94AF10855DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C31CB322E34D7E87B7C79EB5 /* PBXTargetDependency */,
+			);
+			name = PhotogenicTests;
+			productName = PhotogenicTests;
+			productReference = C31CBCF708E0708487C8A3D4 /* PhotogenicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C31CBD8E180A7AF06D878B17 /* Photogenic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31CBFE5E878BB6C71BF6DBF /* Build configuration list for PBXNativeTarget "Photogenic" */;
+			buildPhases = (
+				C31CB6728AA72A8A0023ED11 /* Sources */,
+				C31CB8F859399A1116A35054 /* Frameworks */,
+				C31CBE9184BBCB9316F4E193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photogenic;
+			productName = Photogenic;
+			productReference = C31CB73F08A60B03B4A7224B /* Photogenic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C31CBF6A79654AD6220C7585 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = JosephDaniels;
+			};
+			buildConfigurationList = C31CBE1B70D3AA4689EFE73F /* Build configuration list for PBXProject "Photogenic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C31CB4384E0CB07D6AF10E99;
+			productRefGroup = C31CB6BA53DD8CE2E4A8F50B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C31CBD8E180A7AF06D878B17 /* Photogenic */,
+				C31CB42F2BF1A0A1E640AF0B /* PhotogenicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C31CB3924CAF94AF10855DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31CBE9184BBCB9316F4E193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31CBEF089ED021C9FA6C0A9 /* Images.xcassets in Resources */,
+				C31CBD1C41D3E0C0A0416489 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C31CB6728AA72A8A0023ED11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31CBBC8E1770828A2A4A433 /* AppDelegate.swift in Sources */,
+				C31CB02478CFE5E9BC006FE8 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31CBE353187957EF0E596C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31CBAEFB6A554DDB952C420 /* PhotogenicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C31CB322E34D7E87B7C79EB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31CBD8E180A7AF06D878B17 /* Photogenic */;
+			targetProxy = C31CB182E631BFE6ADD520E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C31CB9FFFD25FC4A1036F2ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C31CB1398DB4375104695C28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C31CB04144CE5A9D43DAC25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C31CB1D2F1DBCD263F6FAC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Photogenic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C31CB581C7C08724D5AED8EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C31CB6B5DF39209DE4A6B41D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Photogenic.app/Contents/MacOS/Photogenic";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotogenicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		C31CB7EAD7F5D08D72D5B2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Photogenic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C31CBF92CAD9E4178DE679B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Photogenic.app/Contents/MacOS/Photogenic";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotogenicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C31CB5C0BC39D8A88BEE68D4 /* Build configuration list for PBXNativeTarget "PhotogenicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31CB6B5DF39209DE4A6B41D /* Debug */,
+				C31CBF92CAD9E4178DE679B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C31CBE1B70D3AA4689EFE73F /* Build configuration list for PBXProject "Photogenic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31CB581C7C08724D5AED8EE /* Debug */,
+				C31CB04144CE5A9D43DAC25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31CBFE5E878BB6C71BF6DBF /* Build configuration list for PBXNativeTarget "Photogenic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31CB7EAD7F5D08D72D5B2EA /* Debug */,
+				C31CB1D2F1DBCD263F6FAC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C31CBF6A79654AD6220C7585 /* Project object */;
+}
