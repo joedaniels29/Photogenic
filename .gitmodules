@@ -1,0 +1,18 @@
+[submodule "vendor/InstagramKit"]
+	path = vendor/InstagramKit
+	url = https://github.com/shyambhat/InstagramKit.git
+[submodule "ReactiveCocoa"]
+	path = vendor/ReactiveCocoa
+	url = https://github.com/ReactiveCocoa/ReactiveCocoa.git
+[submodule "vendor/Alamofire-SwiftyJSON"]
+	path = vendor/Alamofire-SwiftyJSON
+	url = https://github.com/SwiftyJSON/Alamofire-SwiftyJSON
+[submodule "vendor/Quick"]
+	path = vendor/Quick
+	url = git@github.com:Quick/Quick.git
+[submodule "vendor/Nimble"]
+	path = vendor/Nimble
+	url = git@github.com:Quick/Nimble.git
+[submodule "vendor/Alamofire"]
+	path = vendor/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
